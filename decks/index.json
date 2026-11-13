@@ -1,0 +1,51 @@
+[
+ {
+  "slug": "flubs-the-fool",
+  "name": "Flubs, the Fool",
+  "cmd": "Flubs",
+  "file": "flubs-the-fool.json",
+  "list": "2026-11-12"
+ },
+ {
+  "slug": "flubs-big-table",
+  "name": "Flubs, Big Table",
+  "cmd": "Big Flubs",
+  "file": "flubs-big-table.json",
+  "list": "2026-11-12"
+ },
+ {
+  "slug": "kresh-the-bloodbraided",
+  "name": "Perfecter Cell",
+  "cmd": "Perfecter Cell",
+  "file": "kresh-the-bloodbraided.json",
+  "list": "2026-09-13"
+ },
+ {
+  "slug": "chaos-is-a-ladder",
+  "name": "Chaos is a Ladder",
+  "cmd": "Bran",
+  "file": "chaos-is-a-ladder.json",
+  "list": "2026-10-12"
+ },
+ {
+  "slug": "ichioku-gyokusai",
+  "name": "The Hundred Million Shattered Jewels",
+  "cmd": "Ishiwara",
+  "file": "ichioku-gyokusai.json",
+  "list": "2026-09-26"
+ },
+ {
+  "slug": "cold-war",
+  "name": "Cold War",
+  "cmd": "X",
+  "file": "cold-war.json",
+  "list": "2026-09-18"
+ },
+ {
+  "slug": "the-music-never-stopped",
+  "name": "The Music Never Stopped",
+  "cmd": "Bertha",
+  "file": "the-music-never-stopped.json",
+  "list": "2026-10-21"
+ }
+]

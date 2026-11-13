@@ -1,0 +1,1210 @@
+{
+ "format": "pilot-deck/1",
+ "slug": "flubs-the-fool",
+ "name": "Flubs, the Fool",
+ "commander": "Flubs, the Fool",
+ "ci": "URG",
+ "list": "2026-11-12",
+ "source": "decks/urg-temur/flubs-the-fool/flubs_decklist.txt",
+ "built": "2026-11-13",
+ "cards": [
+  {
+   "n": "Flubs, the Fool",
+   "q": 1,
+   "mc": "{G}{U}{R}",
+   "cmc": 3.0,
+   "t": "Legendary Creature — Frog Scout",
+   "o": "You may play an additional land on each of your turns.\nWhenever you play a land or cast a spell, draw a card if you have no cards in hand. Otherwise, discard a card.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Bigger on the Inside",
+   "q": 1,
+   "mc": "{3}{R}{G}",
+   "cmc": 5.0,
+   "t": "Enchantment — Aura",
+   "o": "Enchant artifact or land\nEnchanted permanent has \"{T}: Target player adds two mana of any one color. The next spell they cast this turn has cascade.\" (When they cast their next spell, they exile cards from the top of their library until they exile a nonland card that costs less. They may cast it without paying its mana cost. They put the exiled cards on the bottom in a random order.)",
+   "land": false,
+   "prod": "BGRUW",
+   "tag": "engine"
+  },
+  {
+   "n": "Tireless Provisioner",
+   "q": 1,
+   "mc": "{2}{G}",
+   "cmc": 3.0,
+   "t": "Creature — Elf Scout",
+   "o": "Landfall — Whenever a land you control enters, create a Food token or a Treasure token. (Food is an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\" Treasure is an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+   "land": false,
+   "prod": "BGRUW",
+   "tag": "ramp"
+  },
+  {
+   "n": "Mystical Tutor",
+   "q": 1,
+   "mc": "{U}",
+   "cmc": 1.0,
+   "t": "Instant",
+   "o": "Search your library for an instant or sorcery card, reveal it, then shuffle and put that card on top.",
+   "land": false,
+   "prod": "",
+   "tag": "plan"
+  },
+  {
+   "n": "Koth, the Geomancer",
+   "q": 1,
+   "mc": "{2}{R}",
+   "cmc": 3.0,
+   "t": "Legendary Creature — Human Warrior",
+   "o": "Reach\nLandfall — Whenever a land you control enters, Koth deals 1 damage to each opponent. If that land is a Mountain, add {R}.",
+   "land": false,
+   "prod": "R",
+   "tag": "plan"
+  },
+  {
+   "n": "Valakut Exploration",
+   "q": 1,
+   "mc": "{2}{R}",
+   "cmc": 3.0,
+   "t": "Enchantment",
+   "o": "Landfall — Whenever a land you control enters, exile the top card of your library. You may play that card for as long as it remains exiled.\nAt the beginning of your end step, if there are cards exiled with this enchantment, put them into their owner's graveyard, then this enchantment deals that much damage to each opponent.",
+   "land": false,
+   "prod": "",
+   "tag": "plan",
+   "printed": "Peepo-Mining",
+   "aka": [
+    "Peepo Mining"
+   ]
+  },
+  {
+   "n": "Augur of Autumn",
+   "q": 1,
+   "mc": "{1}{G}{G}",
+   "cmc": 3.0,
+   "t": "Creature — Human Druid",
+   "o": "You may look at the top card of your library any time.\nYou may play lands from the top of your library.\nCoven — As long as you control three or more creatures with different powers, you may cast creature spells from the top of your library.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Sol Ring",
+   "q": 1,
+   "mc": "{1}",
+   "cmc": 1.0,
+   "t": "Artifact",
+   "o": "{T}: Add {C}{C}.",
+   "land": false,
+   "prod": "C",
+   "tag": "ramp"
+  },
+  {
+   "n": "Mox Diamond",
+   "q": 1,
+   "mc": "{0}",
+   "cmc": 0,
+   "t": "Artifact",
+   "o": "If this artifact would enter, you may discard a land card instead. If you do, put this artifact onto the battlefield. If you don't, put it into its owner's graveyard.\n{T}: Add one mana of any color.",
+   "land": false,
+   "prod": "BGRUW",
+   "tag": "ramp"
+  },
+  {
+   "n": "Studious First-Year // Rampant Growth",
+   "q": 1,
+   "mc": "{G}",
+   "cmc": 1.0,
+   "t": "Creature — Bear Wizard",
+   "o": "This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n\n// Rampant Growth\nSearch your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+   "land": false,
+   "prod": "",
+   "tag": "ramp"
+  },
+  {
+   "n": "Sakura-Tribe Elder",
+   "q": 1,
+   "mc": "{1}{G}",
+   "cmc": 2.0,
+   "t": "Creature — Snake Shaman",
+   "o": "Sacrifice this creature: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+   "land": false,
+   "prod": "",
+   "tag": "ramp"
+  },
+  {
+   "n": "Llanowar Scout",
+   "q": 1,
+   "mc": "{1}{G}",
+   "cmc": 2.0,
+   "t": "Creature — Elf Scout",
+   "o": "{T}: You may put a land card from your hand onto the battlefield.",
+   "land": false,
+   "prod": "",
+   "tag": "ramp"
+  },
+  {
+   "n": "PuPu UFO",
+   "q": 1,
+   "mc": "{2}",
+   "cmc": 2.0,
+   "t": "Artifact Creature — Construct Alien",
+   "o": "Flying\n{T}: You may put a land card from your hand onto the battlefield.\n{3}: Until end of turn, this creature's base power becomes equal to the number of Towns you control.",
+   "land": false,
+   "prod": "",
+   "tag": "ramp"
+  },
+  {
+   "n": "Eruth, Tormented Prophet",
+   "q": 1,
+   "mc": "{1}{U}{R}",
+   "cmc": 3.0,
+   "t": "Legendary Creature — Human Wizard",
+   "o": "If you would draw a card, exile the top two cards of your library instead. You may play those cards this turn.",
+   "land": false,
+   "prod": "",
+   "tag": "draw"
+  },
+  {
+   "n": "Fblthp, Lost on the Range",
+   "q": 1,
+   "mc": "{1}{U}{U}",
+   "cmc": 3.0,
+   "t": "Legendary Creature — Homunculus",
+   "o": "Ward {2}\nYou may look at the top card of your library any time.\nThe top card of your library has plot. The plot cost is equal to its mana cost.\nYou may plot nonland cards from the top of your library.",
+   "land": false,
+   "prod": "",
+   "tag": "draw"
+  },
+  {
+   "n": "Lotus Cobra",
+   "q": 1,
+   "mc": "{1}{G}",
+   "cmc": 2.0,
+   "t": "Creature — Snake",
+   "o": "Landfall — Whenever a land you control enters, add one mana of any color.",
+   "land": false,
+   "prod": "BGRUW",
+   "tag": "ramp"
+  },
+  {
+   "n": "Long-Term Plans",
+   "q": 1,
+   "mc": "{2}{U}",
+   "cmc": 3.0,
+   "t": "Instant",
+   "o": "Search your library for a card, then shuffle and put that card third from the top.",
+   "land": false,
+   "prod": "",
+   "tag": "tutor"
+  },
+  {
+   "n": "Frantic Search",
+   "q": 1,
+   "mc": "{2}{U}",
+   "cmc": 3.0,
+   "t": "Instant",
+   "o": "Draw two cards, then discard two cards. Untap up to three lands.",
+   "land": false,
+   "prod": "",
+   "tag": "filter"
+  },
+  {
+   "n": "Llanowar Mentor",
+   "q": 1,
+   "mc": "{G}",
+   "cmc": 1.0,
+   "t": "Creature — Elf Spellshaper",
+   "o": "{G}, {T}, Discard a card: Create a 1/1 green Elf Druid creature token named Llanowar Elves. It has \"{T}: Add {G}.\"",
+   "land": false,
+   "prod": "G",
+   "tag": "plan"
+  },
+  {
+   "n": "Waterfront Bouncer",
+   "q": 1,
+   "mc": "{1}{U}",
+   "cmc": 2.0,
+   "t": "Creature — Merfolk Spellshaper",
+   "o": "{U}, {T}, Discard a card: Return target creature to its owner's hand.",
+   "land": false,
+   "prod": "",
+   "tag": "removal"
+  },
+  {
+   "n": "Otherworldly Gaze",
+   "q": 1,
+   "mc": "{U}",
+   "cmc": 1.0,
+   "t": "Instant",
+   "o": "Surveil 3. (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\nFlashback {1}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+   "land": false,
+   "prod": "",
+   "tag": "filter"
+  },
+  {
+   "n": "Arachnogenesis",
+   "q": 1,
+   "mc": "{2}{G}",
+   "cmc": 3.0,
+   "t": "Instant",
+   "o": "Create X 1/2 green Spider creature tokens with reach, where X is the number of creatures attacking you. Prevent all combat damage that would be dealt this turn by non-Spider creatures.",
+   "land": false,
+   "prod": "",
+   "tag": "protection"
+  },
+  {
+   "n": "Zuko, Exiled Prince",
+   "q": 1,
+   "mc": "{3}{R}",
+   "cmc": 4.0,
+   "t": "Legendary Creature — Human Noble",
+   "o": "Firebending 3 (Whenever this creature attacks, add {R}{R}{R}. This mana lasts until end of combat.)\n{3}: Exile the top card of your library. You may play that card this turn.",
+   "land": false,
+   "prod": "R",
+   "tag": "draw"
+  },
+  {
+   "n": "Abundance",
+   "q": 1,
+   "mc": "{2}{G}{G}",
+   "cmc": 4.0,
+   "t": "Enchantment",
+   "o": "If you would draw a card, you may instead choose land or nonland and reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and put all other cards revealed this way on the bottom of your library in any order.",
+   "land": false,
+   "prod": "",
+   "tag": "draw"
+  },
+  {
+   "n": "Chaos Warp",
+   "q": 1,
+   "mc": "{2}{R}",
+   "cmc": 3.0,
+   "t": "Instant",
+   "o": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
+   "land": false,
+   "prod": "",
+   "tag": "removal"
+  },
+  {
+   "n": "Imprisoned in the Moon",
+   "q": 1,
+   "mc": "{2}{U}",
+   "cmc": 3.0,
+   "t": "Enchantment — Aura",
+   "o": "Enchant creature, land, or planeswalker\nEnchanted permanent is a colorless land with \"{T}: Add {C}\" and loses all other card types and abilities.",
+   "land": false,
+   "prod": "C",
+   "tag": "removal"
+  },
+  {
+   "n": "The Locust God",
+   "q": 1,
+   "mc": "{4}{U}{R}",
+   "cmc": 6.0,
+   "t": "Legendary Creature — God",
+   "o": "Flying\nWhenever you draw a card, create a 1/1 blue and red Insect creature token with flying and haste.\n{2}{U}{R}: Draw a card, then discard a card.\nWhen The Locust God dies, return it to its owner's hand at the beginning of the next end step.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Cast into the Fire",
+   "q": 1,
+   "mc": "{1}{R}",
+   "cmc": 2.0,
+   "t": "Instant",
+   "o": "Choose one —\n• Cast into the Fire deals 1 damage to each of up to two target creatures.\n• Exile target artifact.",
+   "land": false,
+   "prod": "",
+   "tag": "removal",
+   "printed": "Enough!",
+   "aka": [
+    "ENOUGH!"
+   ]
+  },
+  {
+   "n": "Soul-Guide Lantern",
+   "q": 1,
+   "mc": "{1}",
+   "cmc": 1.0,
+   "t": "Artifact",
+   "o": "When this artifact enters, exile target card from a graveyard.\n{T}, Sacrifice this artifact: Exile each opponent's graveyard.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+   "land": false,
+   "prod": "",
+   "tag": "removal"
+  },
+  {
+   "n": "Haywire Mite",
+   "q": 1,
+   "mc": "{1}",
+   "cmc": 1.0,
+   "t": "Artifact Creature — Insect",
+   "o": "When this creature dies, you gain 2 life.\n{G}, Sacrifice this creature: Exile target noncreature artifact or noncreature enchantment.",
+   "land": false,
+   "prod": "",
+   "tag": "removal"
+  },
+  {
+   "n": "Strionic Resonator",
+   "q": 1,
+   "mc": "{2}",
+   "cmc": 2.0,
+   "t": "Artifact",
+   "o": "{2}, {T}: Copy target triggered ability you control. You may choose new targets for the copy. (A triggered ability uses the words \"when,\" \"whenever,\" or \"at.\")",
+   "land": false,
+   "prod": "",
+   "tag": "engine"
+  },
+  {
+   "n": "Reclaim",
+   "q": 1,
+   "mc": "{G}",
+   "cmc": 1.0,
+   "t": "Instant",
+   "o": "Put target card from your graveyard on top of your library.",
+   "land": false,
+   "prod": "",
+   "tag": "none"
+  },
+  {
+   "n": "Growth Spiral",
+   "q": 1,
+   "mc": "{G}{U}",
+   "cmc": 2.0,
+   "t": "Instant",
+   "o": "Draw a card. You may put a land card from your hand onto the battlefield.",
+   "land": false,
+   "prod": "",
+   "tag": "ramp"
+  },
+  {
+   "n": "Lightning Greaves",
+   "q": 1,
+   "mc": "{2}",
+   "cmc": 2.0,
+   "t": "Artifact — Equipment",
+   "o": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
+   "land": false,
+   "prod": "",
+   "tag": "protection",
+   "printed": "Sanic Boots"
+  },
+  {
+   "n": "Auroral Procession",
+   "q": 1,
+   "mc": "{G}{U}",
+   "cmc": 2.0,
+   "t": "Instant",
+   "o": "Return target card from your graveyard to your hand.",
+   "land": false,
+   "prod": "",
+   "tag": "plan"
+  },
+  {
+   "n": "Crucible of Worlds",
+   "q": 1,
+   "mc": "{3}",
+   "cmc": 3.0,
+   "t": "Artifact",
+   "o": "You may play lands from your graveyard.",
+   "land": false,
+   "prod": "",
+   "tag": "engine"
+  },
+  {
+   "n": "Tectonic Split",
+   "q": 1,
+   "mc": "{4}{G}{G}",
+   "cmc": 6.0,
+   "t": "Enchantment",
+   "o": "As an additional cost to cast this spell, sacrifice half the lands you control, rounded up.\nHexproof\nLands you control have \"{T}: Add three mana of any one color.\"",
+   "land": false,
+   "prod": "BGRUW",
+   "tag": "ramp",
+   "printed": "Croak-a-toa"
+  },
+  {
+   "n": "Thassa's Oracle",
+   "q": 1,
+   "mc": "{U}{U}",
+   "cmc": 2.0,
+   "t": "Creature — Merfolk Wizard",
+   "o": "When this creature enters, look at the top X cards of your library, where X is your devotion to blue. Put up to one of them on top of your library and the rest on the bottom of your library in a random order. If X is greater than or equal to the number of cards in your library, you win the game. (Each {U} in the mana costs of permanents you control counts toward your devotion to blue.)",
+   "land": false,
+   "prod": "",
+   "tag": "plan",
+   "printed": "Peepo's Oracle"
+  },
+  {
+   "n": "Etali, Primal Conqueror // Etali, Primal Sickness",
+   "q": 1,
+   "mc": "{5}{R}{R}",
+   "cmc": 7.0,
+   "t": "Legendary Creature — Elder Dinosaur",
+   "o": "Trample\nWhen Etali enters, each player exiles cards from the top of their library until they exile a nonland card. You may cast any number of spells from among the nonland cards exiled this way without paying their mana costs.\n{9}{G/P}: Transform Etali. Activate only as a sorcery.\n\n// Etali, Primal Sickness\nTrample, indestructible\nWhenever Etali deals combat damage to a player, they get that many poison counters. (A player with ten or more poison counters loses the game.)",
+   "land": false,
+   "prod": "",
+   "tag": "plan"
+  },
+  {
+   "n": "Basking Rootwalla",
+   "q": 1,
+   "mc": "{G}",
+   "cmc": 1.0,
+   "t": "Creature — Lizard",
+   "o": "{1}{G}: This creature gets +2/+2 until end of turn. Activate only once each turn.\nMadness {0} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Blazing Rootwalla",
+   "q": 1,
+   "mc": "{R}",
+   "cmc": 1.0,
+   "t": "Creature — Lizard",
+   "o": "{R}: This creature gets +2/+0 until end of turn. Activate only once each turn.\nMadness {0} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Hermitic Herbalist",
+   "q": 1,
+   "mc": "{G}{U}",
+   "cmc": 2.0,
+   "t": "Creature — Human Druid Ally",
+   "o": "{T}: Add one mana of any color.\n{T}: Add two mana in any combination of colors. Spend this mana only to cast Lesson spells.",
+   "land": false,
+   "prod": "BGRUW",
+   "tag": "ramp"
+  },
+  {
+   "n": "Nature's Lore",
+   "q": 1,
+   "mc": "{1}{G}",
+   "cmc": 2.0,
+   "t": "Sorcery",
+   "o": "Search your library for a Forest card, put that card onto the battlefield, then shuffle.",
+   "land": false,
+   "prod": "",
+   "tag": "ramp"
+  },
+  {
+   "n": "Lightning Bolt",
+   "q": 1,
+   "mc": "{R}",
+   "cmc": 1.0,
+   "t": "Instant",
+   "o": "Lightning Bolt deals 3 damage to any target.",
+   "land": false,
+   "prod": "",
+   "tag": "removal"
+  },
+  {
+   "n": "Darksteel Plate",
+   "q": 1,
+   "mc": "{3}",
+   "cmc": 3.0,
+   "t": "Artifact — Equipment",
+   "o": "Indestructible\nEquipped creature has indestructible.\nEquip {2}",
+   "land": false,
+   "prod": "",
+   "tag": "protection",
+   "printed": "Crazy-Frog Goggles",
+   "aka": [
+    "Froggles",
+    "Crazy Frog Goggles"
+   ]
+  },
+  {
+   "n": "Omnath, Locus of the Void",
+   "q": 1,
+   "mc": "{7}",
+   "cmc": 7.0,
+   "t": "Legendary Creature — Elemental",
+   "o": "Omnath gets +1/+1 for each unspent mana you have.\nIf you would lose unspent mana, that mana becomes colorless instead.\nLandfall — Whenever a land you control enters, add {C}{C}.",
+   "land": false,
+   "prod": "C",
+   "tag": ""
+  },
+  {
+   "n": "Ravenous Bloodseeker",
+   "q": 1,
+   "mc": "{1}{R}",
+   "cmc": 2.0,
+   "t": "Creature — Vampire Berserker",
+   "o": "Discard a card: This creature gets +2/-2 until end of turn.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Spore Frog",
+   "q": 1,
+   "mc": "{G}",
+   "cmc": 1.0,
+   "t": "Creature — Frog",
+   "o": "Sacrifice this creature: Prevent all combat damage that would be dealt this turn.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Wild Mongrel",
+   "q": 1,
+   "mc": "{1}{G}",
+   "cmc": 2.0,
+   "t": "Creature — Dog",
+   "o": "Discard a card: This creature gets +1/+1 and becomes the color of your choice until end of turn.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Fire Nation Palace",
+   "q": 1,
+   "mc": "",
+   "cmc": 0,
+   "t": "Land",
+   "o": "This land enters tapped unless you control a basic land.\n{T}: Add {R}.\n{1}{R}, {T}: Target creature you control gains firebending 4 until end of turn. (Whenever it attacks, add {R}{R}{R}{R}. This mana lasts until end of combat.)",
+   "land": true,
+   "prod": "R",
+   "tag": ""
+  },
+  {
+   "n": "Bountiful Landscape",
+   "q": 1,
+   "mc": "",
+   "cmc": 0,
+   "t": "Land",
+   "o": "{T}: Add {C}.\n{T}, Sacrifice this land: Search your library for a basic Forest, Island, or Mountain card, put it onto the battlefield tapped, then shuffle.\nCycling {G}{U}{R} ({G}{U}{R}, Discard this card: Draw a card.)",
+   "land": true,
+   "prod": "C",
+   "tag": ""
+  },
+  {
+   "n": "Cinder Glade",
+   "q": 1,
+   "mc": "",
+   "cmc": 0,
+   "t": "Land — Mountain Forest",
+   "o": "({T}: Add {R} or {G}.)\nThis land enters tapped unless you control two or more basic lands.",
+   "land": true,
+   "prod": "GR",
+   "tag": ""
+  },
+  {
+   "n": "Command Tower",
+   "q": 1,
+   "mc": "",
+   "cmc": 0,
+   "t": "Land",
+   "o": "{T}: Add one mana of any color in your commander's color identity.",
+   "land": true,
+   "prod": "BGRUW",
+   "tag": ""
+  },
+  {
+   "n": "Frontier Bivouac",
+   "q": 1,
+   "mc": "",
+   "cmc": 0,
+   "t": "Land",
+   "o": "This land enters tapped.\n{T}: Add {G}, {U}, or {R}.",
+   "land": true,
+   "prod": "GRU",
+   "tag": ""
+  },
+  {
+   "n": "Hinterland Harbor",
+   "q": 1,
+   "mc": "",
+   "cmc": 0,
+   "t": "Land",
+   "o": "This land enters tapped unless you control a Forest or an Island.\n{T}: Add {G} or {U}.",
+   "land": true,
+   "prod": "GU",
+   "tag": ""
+  },
+  {
+   "n": "Karplusan Forest",
+   "q": 1,
+   "mc": "",
+   "cmc": 0,
+   "t": "Land",
+   "o": "{T}: Add {C}.\n{T}: Add {R} or {G}. This land deals 1 damage to you.",
+   "land": true,
+   "prod": "CGR",
+   "tag": ""
+  },
+  {
+   "n": "Rain-Slicked Copse",
+   "q": 1,
+   "mc": "",
+   "cmc": 0,
+   "t": "Land — Forest Island",
+   "o": "({T}: Add {G} or {U}.)\nThis land enters tapped.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+   "land": true,
+   "prod": "GU",
+   "tag": ""
+  },
+  {
+   "n": "Sulfur Falls",
+   "q": 1,
+   "mc": "",
+   "cmc": 0,
+   "t": "Land",
+   "o": "This land enters tapped unless you control an Island or a Mountain.\n{T}: Add {U} or {R}.",
+   "land": true,
+   "prod": "RU",
+   "tag": ""
+  },
+  {
+   "n": "Thriving Bluff",
+   "q": 1,
+   "mc": "",
+   "cmc": 0,
+   "t": "Land",
+   "o": "This land enters tapped. As it enters, choose a color other than red.\n{T}: Add {R} or one mana of the chosen color.",
+   "land": true,
+   "prod": "BGRUW",
+   "tag": ""
+  },
+  {
+   "n": "Thriving Grove",
+   "q": 1,
+   "mc": "",
+   "cmc": 0,
+   "t": "Land",
+   "o": "This land enters tapped. As it enters, choose a color other than green.\n{T}: Add {G} or one mana of the chosen color.",
+   "land": true,
+   "prod": "BGRUW",
+   "tag": ""
+  },
+  {
+   "n": "Thriving Isle",
+   "q": 1,
+   "mc": "",
+   "cmc": 0,
+   "t": "Land",
+   "o": "This land enters tapped. As it enters, choose a color other than blue.\n{T}: Add {U} or one mana of the chosen color.",
+   "land": true,
+   "prod": "BGRUW",
+   "tag": ""
+  },
+  {
+   "n": "Vibrant Cityscape",
+   "q": 1,
+   "mc": "",
+   "cmc": 0,
+   "t": "Land",
+   "o": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+   "land": true,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Rogue's Passage",
+   "q": 1,
+   "mc": "",
+   "cmc": 0,
+   "t": "Land",
+   "o": "{T}: Add {C}.\n{4}, {T}: Target creature can't be blocked this turn.",
+   "land": true,
+   "prod": "C",
+   "tag": ""
+  },
+  {
+   "n": "Forest",
+   "q": 9,
+   "mc": "",
+   "cmc": 0,
+   "t": "Basic Land — Forest",
+   "o": "({T}: Add {G}.)",
+   "land": true,
+   "prod": "G",
+   "tag": ""
+  },
+  {
+   "n": "Island",
+   "q": 6,
+   "mc": "",
+   "cmc": 0,
+   "t": "Basic Land — Island",
+   "o": "({T}: Add {U}.)",
+   "land": true,
+   "prod": "U",
+   "tag": ""
+  },
+  {
+   "n": "Mountain",
+   "q": 6,
+   "mc": "",
+   "cmc": 0,
+   "t": "Basic Land — Mountain",
+   "o": "({T}: Add {R}.)",
+   "land": true,
+   "prod": "R",
+   "tag": ""
+  },
+  {
+   "n": "Fellwar Stone",
+   "q": 1,
+   "mc": "{2}",
+   "cmc": 2.0,
+   "t": "Artifact",
+   "o": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+   "land": false,
+   "prod": "BGRUW",
+   "tag": "ramp"
+  },
+  {
+   "n": "Omniscience",
+   "q": 1,
+   "mc": "{7}{U}{U}{U}",
+   "cmc": 10.0,
+   "t": "Enchantment",
+   "o": "You may cast spells from your hand without paying their mana costs.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Progenitor Mimic",
+   "q": 1,
+   "mc": "{4}{G}{U}",
+   "cmc": 6.0,
+   "t": "Creature — Shapeshifter",
+   "o": "You may have this creature enter as a copy of any creature on the battlefield, except it has \"At the beginning of your upkeep, if this creature isn't a token, create a token that's a copy of this creature.\"",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Avenger of Zendikar",
+   "q": 1,
+   "mc": "{5}{G}{G}",
+   "cmc": 7.0,
+   "t": "Creature — Elemental",
+   "o": "When this creature enters, create a 0/1 green Plant creature token for each land you control.\nLandfall — Whenever a land you control enters, you may put a +1/+1 counter on each Plant creature you control.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Scute Swarm",
+   "q": 1,
+   "mc": "{2}{G}",
+   "cmc": 3.0,
+   "t": "Creature — Insect",
+   "o": "Landfall — Whenever a land you control enters, create a 1/1 green Insect creature token. If you control six or more lands, create a token that's a copy of this creature instead.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Ancient Greenwarden",
+   "q": 1,
+   "mc": "{4}{G}{G}",
+   "cmc": 6.0,
+   "t": "Creature — Elemental",
+   "o": "Reach (This creature can block creatures with flying.)\nYou may play lands from your graveyard.\nIf a land entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Spark Double",
+   "q": 1,
+   "mc": "{3}{U}",
+   "cmc": 4.0,
+   "t": "Creature — Illusion",
+   "o": "You may have this creature enter as a copy of a creature or planeswalker you control, except it enters with an additional +1/+1 counter on it if it's a creature, it enters with an additional loyalty counter on it if it's a planeswalker, and it isn't legendary.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Springheart Nantuko",
+   "q": 1,
+   "mc": "{1}{G}",
+   "cmc": 2.0,
+   "t": "Enchantment Creature — Insect Monk",
+   "o": "Bestow {1}{G}\nEnchanted creature gets +1/+1.\nLandfall — Whenever a land you control enters, you may pay {1}{G} if this permanent is attached to a creature you control. If you do, create a token that's a copy of that creature. If you didn't create a token this way, create a 1/1 green Insect creature token.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Mina and Denn, Wildborn",
+   "q": 1,
+   "mc": "{2}{R}{G}",
+   "cmc": 4.0,
+   "t": "Legendary Creature — Elf Ally",
+   "o": "You may play an additional land on each of your turns.\n{R}{G}, Return a land you control to its owner's hand: Target creature gains trample until end of turn.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Druid Class",
+   "q": 1,
+   "mc": "{1}{G}",
+   "cmc": 2.0,
+   "t": "Enchantment — Class",
+   "o": "(Gain the next level as a sorcery to add its ability.)\nLandfall — Whenever a land you control enters, you gain 1 life.\n{2}{G}: Level 2\nYou may play an additional land on each of your turns.\n{4}{G}: Level 3\nWhen this Class becomes level 3, target land you control becomes a creature with haste and \"This creature's power and toughness are each equal to the number of lands you control.\" It's still a land.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Phantasmal Image",
+   "q": 1,
+   "mc": "{1}{U}",
+   "cmc": 2.0,
+   "t": "Creature — Illusion",
+   "o": "You may have this creature enter as a copy of any creature on the battlefield, except it's an Illusion in addition to its other types and it has \"When this creature becomes the target of a spell or ability, sacrifice it.\"",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Khalni Heart Expedition",
+   "q": 1,
+   "mc": "{1}{G}",
+   "cmc": 2.0,
+   "t": "Enchantment",
+   "o": "Landfall — Whenever a land you control enters, you may put a quest counter on this enchantment.\nRemove three quest counters from this enchantment and sacrifice it: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Retreat to Kazandu",
+   "q": 1,
+   "mc": "{2}{G}",
+   "cmc": 3.0,
+   "t": "Enchantment",
+   "o": "Landfall — Whenever a land you control enters, choose one —\n• Put a +1/+1 counter on target creature.\n• You gain 2 life.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Roil Elemental",
+   "q": 1,
+   "mc": "{3}{U}{U}{U}",
+   "cmc": 6.0,
+   "t": "Creature — Elemental",
+   "o": "Flying\nLandfall — Whenever a land you control enters, you may gain control of target creature for as long as you control this creature.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  },
+  {
+   "n": "Field of the Dead",
+   "q": 1,
+   "mc": "",
+   "cmc": 0,
+   "t": "Land",
+   "o": "This land enters tapped.\n{T}: Add {C}.\nWhenever this land or another land you control enters, if you control seven or more lands with different names, create a 2/2 black Zombie creature token.",
+   "land": true,
+   "prod": "C",
+   "tag": ""
+  },
+  {
+   "n": "Tireless Tracker",
+   "q": 1,
+   "mc": "{2}{G}",
+   "cmc": 3.0,
+   "t": "Creature — Human Scout",
+   "o": "Landfall — Whenever a land you control enters, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\nWhenever you sacrifice a Clue, put a +1/+1 counter on this creature.",
+   "land": false,
+   "prod": "",
+   "tag": ""
+  }
+ ],
+ "brief": "NOTE: this pilot card is dated 2026-11-06; the decklist is dated 2026-11-12 and wins wherever they disagree. Cards it names that are not in the decklist have been cut; ignore advice built on them.\nPilot card · Temur · Bracket 3 · 11-06 list\n Flubs, the Fool\n Empty the hand, ping everyone, blow up the table.\n FLUBS, THE FOOL · Frog Scout G U R \n You may play an additional land on each of your turns.\n Whenever you play a land or cast a spell , draw a card if you have no cards in hand . Otherwise, discard a card .\n Checked on resolution: casting your last card draws. Mandatory: no declining.\n 0/5 \n Your turn, every turn\n 1\n Empty first\n Pitch the dead card: Mongrel, Bloodseeker free; Mentor, Bouncer, Frantic, Blood.\n 2\n Dump lands\n Scout, PuPu UFO : no Flubs trigger, still landfall.\n 3\n Two land drops\n Each = a Flubs draw. Sabotender, Valakut ping.\n 4\n Cast it all\n Lands first, then cast in combat (beginning of combat counts): Zuko XP each.\n 5\n Armor up\n After a recast: Plate, then Greaves . Then attack: combat is where it goes off.\n Before the game\n Mulligan\n Flubs turn 3. Mulligan hard.\n Draw 7. Keep: 3–4 lands with two colors, or 2 lands + a cheap mana piece (Sol Ring, Mox, Fellwar, Cobra, Herbalist, STE, Scout, UFO, Rampant Growth, Lore). Ship: 0–1 lands; 2 lands, no ramp; 5+ lands, no action; two 5+ drops (Omnath, Etali, Slash, Split, Locust God) with no ramp.\n Say it\n \"Seventeen printed stand-ins, ask what anything does.\" Call Flubs triggers out loud.\n At this table\n Brandon\n mono-red Crypt loop: kill Welder (Cast into the Fire), then Lantern the Crypt in his graveyard. Plate on Flubs. \n Avery\n Tinybones Your discards feed Megrim / Raiders' Wake. Fewer triggers with cards in hand. Mite on Megrim. \n Harry\n Gollum · Drannith Gollum infect one-shot: Arachnogenesis , keep Spore Frog out. Drannith: Chaos Warp, Imprisoned . \n When this happens → do this \n YOUR TURN \n Forced to discard Rootwalla (madness {0}) › a land (Rage ammo) › anything you can't cast this turn. \n Flubs died Recast (+{2} each time). Equip Plate first, then Greaves ; equip targets, shroud blocks it. \n Fated Firepower in hand, short on red Attack with Zuko / Palace firebending; Electro keeps the red. Firepower has flash : cast it in combat. Leyline out = cast the whole hand in combat. \n Casting Mox Diamond Before Flubs; after, hold a land + another card . \n Casting Tectonic Split Tap lands for mana first , then sacrifice half. Sacrificed lands = Rage ammo. \n Casting in combat One at a time; let each Flubs trigger resolve = a draw per spell. Holding one? Your next land discards it. \n THEIR TURN · END STEP, MANA UP \n Want Fated Firepower Long-Term Plans . Not Mystical Tutor: instants/sorceries only. \n Big attack coming at you Arachnogenesis (Spiders ping) or Spore Frog sac. \n Key card in the graveyard Reclaim (top; Flubs draws it) or Auroral Procession (hand). \n ANY TIME \n Library is getting low Cast Oracle while cards remain. A Flubs draw from 0 cards loses. \n Land put in, not played Ramp, Growth Spiral, Rage: no Flubs trigger, still landfall. Augur 's top-deck land is played. \n Going off? \n - Fated Firepower or Torbran out (or in hand + combat red) \n - 2+ damage sources : Tremors, Gatekeeper, Roastmaster, Sabotender, Guttersnipe, Koth \n - A body maker : Locust God (Insect per draw), Arachnogenesis, Augur \n - Hand empty going into combat \n - Red banked: Zuko · Palace · Electro · Omnath \n Every ping = 1 + X to every opponent ( +2 more from a red source with Torbran). Game 4: X=8, a last Sabotender landfall = 9 each. Guttersnipe: 2+X per instant/sorcery. Locust God: each draw = an Insect = 1+X per pinger.\n No Firepower or Torbran?\n Comet Storm : dump the mana, X to each opponent (+{1} per extra target). Grapeshot after a long chain. Etali poison, Oracle . Mystical Tutor finds Comet / Grapeshot; Long-Term Plans finds anything.\n Once it lands\n Fated Firepower or two pingers makes you the archenemy. Close before the table turns.\n Key cards\n engine protection / answers win watch out \n Torbran : red sources deal +2 to opponents. Stacks with Firepower.\n Koth : landfall = 1 to each opponent; Mountains add {R}.\n Augur of Autumn : play lands off the top; coven: creatures too.\n Leyline of Anticipation : all spells flash. Opening hand: start with it out.\n Zuko, Firebending Master : combat spell = experience; firebending X.\n Electro : red mana doesn't empty; +{R} per instant/sorcery.\n Worldsoul's Rage : X to one target; X lands back = X landfalls.\n Comet Storm : X to each target; pay {1} per extra target.\n Grapeshot : 1 dmg per copy; storm = spells cast before it.\n Guttersnipe : 2 to each opponent per instant/sorcery.\n The Locust God : an Insect per card drawn.\n Crucible of Worlds : play lands from your graveyard.\n Fated Firepower : +X to every damage event at opponents.\n Flubs, the Fool · Pilot card v2 · Nov 2026 (11-06 list) Record every game on the back ›",
+ "briefSource": "PILOT-CARD.html page 1, OLDER than the list (2026-11-06)",
+ "profile": {
+  "commanderShort": "Flubs",
+  "autoRamp": false,
+  "failTurn": 4,
+  "short": {
+   "Studious First-Year // Rampant Growth": "Studious First-Year",
+   "Etali, Primal Conqueror // Etali, Primal Sickness": "Etali"
+  },
+  "lands": {
+   "Fire Nation Palace": {
+    "c": "R",
+    "tap": {
+     "basicsLt": 1
+    }
+   },
+   "Bountiful Landscape": {
+    "c": "C",
+    "fetch": true
+   },
+   "Cinder Glade": {
+    "c": "GR",
+    "types": [
+     "Forest",
+     "Mountain"
+    ],
+    "tap": {
+     "basicsLt": 2
+    }
+   },
+   "Command Tower": {
+    "c": "GUR"
+   },
+   "Frontier Bivouac": {
+    "c": "GUR",
+    "tap": true
+   },
+   "Hinterland Harbor": {
+    "c": "GU",
+    "tap": {
+     "unless": [
+      "Forest",
+      "Island"
+     ]
+    }
+   },
+   "Karplusan Forest": {
+    "c": "GR"
+   },
+   "Rain-Slicked Copse": {
+    "c": "GU",
+    "types": [
+     "Forest",
+     "Island"
+    ],
+    "tap": true
+   },
+   "Sulfur Falls": {
+    "c": "UR",
+    "tap": {
+     "unless": [
+      "Island",
+      "Mountain"
+     ]
+    }
+   },
+   "Thriving Bluff": {
+    "c": "R",
+    "thr": true,
+    "tap": true
+   },
+   "Thriving Grove": {
+    "c": "G",
+    "thr": true,
+    "tap": true
+   },
+   "Thriving Isle": {
+    "c": "U",
+    "thr": true,
+    "tap": true
+   },
+   "Vibrant Cityscape": {
+    "c": "",
+    "fetch": true
+   },
+   "Rogue's Passage": {
+    "c": "C"
+   }
+  },
+  "ramp": {
+   "Sol Ring": {
+    "cost": "{1}",
+    "kind": "rock",
+    "c": "C",
+    "n": 2
+   },
+   "Mox Diamond": {
+    "cost": "{0}",
+    "kind": "rock",
+    "c": "GUR",
+    "n": 1,
+    "mox": true
+   },
+   "Fellwar Stone": {
+    "cost": "{2}",
+    "kind": "rock",
+    "c": "GUR",
+    "n": 1
+   },
+   "Hermitic Herbalist": {
+    "cost": "{G}{U}",
+    "kind": "dork",
+    "c": "GUR",
+    "n": 1
+   },
+   "Lotus Cobra": {
+    "cost": "{1}{G}",
+    "kind": "cobra"
+   },
+   "Tireless Provisioner": {
+    "cost": "{2}{G}",
+    "kind": "prov"
+   },
+   "Llanowar Scout": {
+    "cost": "{1}{G}",
+    "kind": "putter"
+   },
+   "PuPu UFO": {
+    "cost": "{2}",
+    "kind": "putter"
+   },
+   "Sakura-Tribe Elder": {
+    "cost": "{1}{G}",
+    "kind": "ste"
+   },
+   "Studious First-Year // Rampant Growth": {
+    "cost": "{G}",
+    "kind": "studious",
+    "copyCost": "{1}{G}"
+   },
+   "Nature's Lore": {
+    "cost": "{1}{G}",
+    "kind": "lore",
+    "fetch": [
+     "Forest",
+     "Rain-Slicked Copse",
+     "Cinder Glade"
+    ]
+   },
+   "Growth Spiral": {
+    "cost": "{G}{U}",
+    "kind": "spiral"
+   }
+  },
+  "cheapMana": [
+   "Sol Ring",
+   "Mox Diamond",
+   "Fellwar Stone",
+   "Lotus Cobra",
+   "Hermitic Herbalist",
+   "Sakura-Tribe Elder",
+   "Llanowar Scout",
+   "PuPu UFO",
+   "Studious First-Year // Rampant Growth",
+   "Nature's Lore",
+   "Growth Spiral"
+  ],
+  "handNotes": {
+   "Mox Diamond": "Mox Diamond: cast it before Flubs; it eats a land."
+  },
+  "engineTitle": "Flubs is out. Run the engine.",
+  "engine": [
+   "1. Empty your hand of dead cards first: Wild Mongrel and Ravenous Bloodseeker discard for free.",
+   "2. Landfall payoffs before lands (Avenger, Retreat to Kazandu, Khalni Heart, Druid Class), so every land counts.",
+   "3. Play both lands: each one is a Flubs trigger and a landfall trigger.",
+   "4. Copies (Spark Double, Progenitor Mimic, Phantasmal Image) go on the creature doing the most work.",
+   "5. Before Thassa's Oracle, count your library against your devotion to blue."
+  ],
+  "tips": [
+   {
+    "if": {
+     "hand": "Mox Diamond",
+     "cmd": false
+    },
+    "c": "",
+    "t": "Cast Mox Diamond before Flubs. It needs a land to discard."
+   },
+   {
+    "if": {
+     "hand": "Mox Diamond",
+     "cmd": true
+    },
+    "c": "r",
+    "t": "Flubs is out: Mox needs a land plus another card in hand, or Flubs makes you discard the land first."
+   },
+   {
+    "if": {
+     "handType": "Instant",
+     "cmd": true
+    },
+    "c": "u",
+    "t": "You are holding an instant. Your next land makes you discard. Cast it first, or skip the land on purpose."
+   },
+   {
+    "if": {
+     "bf": "Zuko, Firebending Master"
+    },
+    "c": "r",
+    "t": "Zuko: every spell cast during combat is an experience counter. Beginning of combat counts, and so do opponents' combats."
+   },
+   {
+    "if": {
+     "bf": "Electro, Assaulting Battery"
+    },
+    "c": "r",
+    "t": "Electro: unspent red mana stays. Combat red pays for main phase 2."
+   },
+   {
+    "if": {
+     "bf": "Leyline of Anticipation"
+    },
+    "c": "u",
+    "t": "Leyline: cast the whole hand in combat for Zuko."
+   },
+   {
+    "if": {
+     "hand": "Tectonic Split"
+    },
+    "c": "g",
+    "t": "Tectonic Split: tap your lands for mana first, then sacrifice."
+   },
+   {
+    "if": {
+     "bf": "Lotus Cobra"
+    },
+    "c": "g",
+    "t": "Cobra: every land adds a mana right away. Play lands before you cast."
+   },
+   {
+    "if": {
+     "bf": "Abundance"
+    },
+    "c": "g",
+    "t": "Abundance: name land while you have drops left, nonland after."
+   },
+   {
+    "if": {
+     "hand": "Thassa's Oracle"
+    },
+    "c": "u",
+    "t": "Oracle: cast it while cards remain in your library."
+   },
+   {
+    "if": {
+     "bf": [
+      "Fated Firepower",
+      "Torbran, Thane of Red Fell"
+     ]
+    },
+    "c": "r",
+    "t": "Multiplier out: count pings per opponent before you swing."
+   }
+  ],
+  "logFields": [
+   {
+    "id": "firepowerX",
+    "label": "Firepower X",
+    "max": 40,
+    "card": "Fated Firepower"
+   },
+   {
+    "id": "zukoXp",
+    "label": "Zuko experience",
+    "max": 60,
+    "card": "Zuko, Firebending Master"
+   }
+  ],
+  "strategy": "Flubs, the Fool is a Temur (G/U/R) Commander deck, real cardboard. Flubs: you may play an additional land each turn; whenever you play a land or cast a spell, draw a card if your hand is empty, otherwise discard a card (checked on resolution).\nCurrent direction (chosen 2026-11-12, replacing the old pinger / Fated Firepower plan): a hybrid. A landfall shell builds board and mana (Avenger of Zendikar, Field of the Dead, Khalni Heart Expedition, Retreat to Kazandu, Druid Class, Springheart Nantuko, Tireless Tracker, Lotus Cobra, Tireless Provisioner, Scute Swarm, Mina and Denn), Abundance and Eruth dig, and creature copies (Progenitor Mimic, Spark Double, Phantasmal Image, Strionic Resonator) multiply the key engine pieces. Finish: Omniscience plus Thassa's Oracle, or combat. The owner is not yet sure which of the two actually closes games and is recording it, so name which one a line relies on.\nKeep Flubs alive (Lightning Greaves, Darksteel Plate, Spore Frog). Free discard outlets: Wild Mongrel, Ravenous Bloodseeker. Tables run 3 to 7 players. Pod house rule: no commander damage."
+ }
+}
